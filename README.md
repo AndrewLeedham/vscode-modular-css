@@ -15,9 +15,10 @@ Adds the following Modular-CSS specific rule and attribute syntax highlighting o
 Currently this extension only supports syntax highlighting. So erros may be thrown if you are using somesort of linter
 
 ## Release Notes
+See CHANGELOG.md for details.
 
-### 0.0.0
+### 1.0.0
 
-Initial release of just CSS highlighting.
+Modular-CSS highlighting
 
 -----------------------------------------------------------------------------------------------------------
