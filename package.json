@@ -4,6 +4,9 @@
     "description": "An extension to add Modular-CSS syntax highlighting to VSCode.",
     "version": "1.0.0",
     "publisher": "andrewleedham",
+    "scripts": {
+        "push": "vsce publish"
+    },
     "author": {
         "name": "Andrew Leedham",
         "url": "http://andrewleedham.me"
@@ -15,29 +18,43 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "modular-css",
-            "aliases": ["CSS (modular-css)", "modular-css"],
-            "extensions": [".css"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "modular-css",
-            "scopeName": "source.css",
-            "path": "./syntaxes/css.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "modular-css",
+                "aliases": [
+                    "CSS (modular-css)",
+                    "modular-css"
+                ],
+                "extensions": [
+                    ".css"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "modular-css",
+                "scopeName": "source.css",
+                "path": "./syntaxes/css.tmLanguage"
+            }
+        ]
     },
     "repository": "https://github.com/AndrewLeedham/vscode-modular-css",
     "keywords": [
-        "language",
-        "language-support",
+        "language support",
         "vscode",
         "extension",
         "css",
         "modular-css"
     ],
-    "icon": "./icon.png",
-    "galleryBanner":{
+    "icon": "icon.png",
+    "galleryBanner": {
         "color": "#580065"
+    },
+    "devDependencies": {
+        "vso-node-api": "^6.1.2-preview"
+    },
+    "dependencies": {
+        "vsce": "^1.36.1"
     }
 }
