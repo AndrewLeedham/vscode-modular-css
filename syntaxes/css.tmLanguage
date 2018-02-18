@@ -591,6 +591,32 @@
 				</dict>
 			</array>
 		</dict>
+		<key>modular-css-import</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key> 
+					<string>([A-Za-z-_]+)\b</string> 
+					<key>name</key> 
+					<string>support.type.property-name.css</string> 
+				</dict>
+				<dict>
+					<key>match</key> 
+					<string>\s+(from)\s+</string> 
+					<key>name</key> 
+					<string>keyword.control.css</string> 
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#string-double</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#string-single</string>
+				</dict>
+			</array>
+		</dict>
 		<key>property-values</key>
 		<dict>
 			<key>patterns</key>
@@ -772,6 +798,35 @@
 				<dict>
 					<key>include</key>
 					<string>#comment-block</string>
+				</dict>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>support.type.property-name.css</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>patterns</key>
+							<array>
+								<dict>
+									<key>include</key>
+									<string>#modular-css-import</string>
+								</dict>
+							</array>
+						</dict>
+						<key>3</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.terminator.rule.css</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>\b(composes)\b(.+)(?=;|\})</string>
+					<key>name</key>
+					<string>support.type.property-name.css</string>
 				</dict>
 				<dict>
 					<key>begin</key>
