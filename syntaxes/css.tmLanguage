@@ -825,8 +825,6 @@
 					</dict>
 					<key>match</key>
 					<string>\b(composes)\b(.+)(?=;|\})</string>
-					<key>name</key>
-					<string>support.type.property-name.css</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -1046,6 +1044,33 @@
 					</dict>
 					<key>match</key>
 					<string>((:)nth-(?:(?:last-)?child|(?:last-)?of-type))(\()(\-?(?:\d+n?|n)(?:\+\d+)?|even|odd)(\))</string>
+				</dict>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.entity.css</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>entity.other.attribute-name.pseudo-class.css</string>
+						</dict>
+						<key>3</key>
+						<dict>
+							<key>patterns</key>
+							<array>
+								<dict>
+									<key>include</key>
+									<string>#modular-css-import</string>
+								</dict>
+							</array>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(:)(external)\b\s*\(([^\)]+\))</string>
 				</dict>
 				<dict>
 					<key>captures</key>
