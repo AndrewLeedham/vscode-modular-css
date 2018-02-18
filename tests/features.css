@@ -1,5 +1,5 @@
 @value male: #0000FF;
-@value female: pink; 
+@value female: purple; 
 @value one from "all";
 @value one, two from "all";
 @value * as namespace from "all";
