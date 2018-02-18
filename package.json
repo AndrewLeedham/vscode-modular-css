@@ -1,0 +1,26 @@
+{
+    "name": "vscode-modular-css",
+    "displayName": "Modular-CSS Support",
+    "description": "An extension to add Modular-CSS syntax highlighting to VSCode.",
+    "version": "0.0.0",
+    "publisher": "andrewleedham",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "modular-css",
+            "aliases": ["CSS (modular-css)", "modular-css"],
+            "extensions": [".css"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "modular-css",
+            "scopeName": "source.css",
+            "path": "./syntaxes/css.tmLanguage"
+        }]
+    }
+}
