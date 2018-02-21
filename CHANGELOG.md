@@ -4,6 +4,9 @@ All notable changes to the "Modular-CSS" extension will be documented in this fi
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+## [1.1.0] - 2018/02/21
+### Fixed
+* Moved from new language to extending CSS with grammar.
 
 ## [1.0.0] - 2018/02/18
 ### Added

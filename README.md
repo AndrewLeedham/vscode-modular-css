@@ -17,8 +17,6 @@ Currently this extension only supports syntax highlighting. So erros may be thro
 ## Release Notes
 See CHANGELOG.md for details.
 
-### 1.0.0
+### 1.1.0
 
-Modular-CSS highlighting
-
------------------------------------------------------------------------------------------------------------
+Language + Grammar -> Grammar.
