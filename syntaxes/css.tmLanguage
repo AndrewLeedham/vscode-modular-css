@@ -10,7 +10,7 @@
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
-	<string>CSS</string>
+	<string>CSS (modular-css)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
