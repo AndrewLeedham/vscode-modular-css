@@ -4,6 +4,11 @@ All notable changes to the "Modular-CSS" extension will be documented in this fi
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+
+## [1.2.1] - 2018/02/24
+### Fixed
+* Removed old css.tmLanguage XML.
+
 ## [1.2.0] - 2018/02/24
 ### Refactored
 * Grammar now injected in to CSS lang.

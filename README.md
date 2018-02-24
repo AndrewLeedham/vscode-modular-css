@@ -17,6 +17,5 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 ## Release Notes
 See CHANGELOG.md for details.
 
-### 1.2.0
-
-Grammar is now injected into the standard CSS language. 
+### 1.2.1
+* Removed old css.tmLanguage XML.
