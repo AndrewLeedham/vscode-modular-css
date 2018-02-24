@@ -12,11 +12,11 @@ Adds the following Modular-CSS specific rule and attribute syntax highlighting o
 
 ## Known Issues
 
-Currently this extension only supports syntax highlighting. So erros may be thrown if you are using somesort of linter
+Currently this extension only supports syntax highlighting. So errors may be thrown if you are using somesort of linter.
 
 ## Release Notes
 See CHANGELOG.md for details.
 
-### 1.1.0
+### 1.2.0
 
-Language + Grammar -> Grammar.
+Grammar is now injected into the standard CSS language. 
