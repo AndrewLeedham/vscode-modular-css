@@ -20,9 +20,9 @@
     "contributes": {
         "grammars": [
             {
-                "language": "css",
-                "scopeName": "source.css",
-                "path": "./syntaxes/css.tmLanguage"
+                "scopeName": "source.modular.css",
+                "path": "./syntaxes/modular-css.json",
+                "injectTo": ["source.css"]
             }
         ]
     },
