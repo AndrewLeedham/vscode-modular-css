@@ -5,6 +5,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.2.2] - 2018/02/25
+### Fixed
+* Changed `package.json` repository field to fix icon error.
+
 ## [1.2.1] - 2018/02/24
 ### Fixed
 * Removed old css.tmLanguage XML.

@@ -17,5 +17,5 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 ## Release Notes
 See CHANGELOG.md for details.
 
-### 1.2.1
-* Removed old css.tmLanguage XML.
+### 1.2.2
+* Changed `package.json` repository field to fix icon error. And cleaned up naming.

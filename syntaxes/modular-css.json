@@ -1,7 +1,7 @@
 {
   "fileTypes": ["source.css"],
   "injectionSelector": "source.css",
-  "name": "modular-css)",
+  "name": "Modular-CSS",
   "patterns": [
     {
       "include": "#external"
