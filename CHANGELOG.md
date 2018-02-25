@@ -8,6 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.2.2] - 2018/02/25
 ### Fixed
 * Changed `package.json` repository field to fix icon error.
+* Removed old `language-configuration.json`.
 
 ## [1.2.1] - 2018/02/24
 ### Fixed

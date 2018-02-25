@@ -1,8 +1,8 @@
 {
     "name": "vscode-modular-css",
-    "displayName": "Modular-CSS Support",
+    "displayName": "Modular-CSS Syntax Highlighter",
     "description": "An extension to add Modular-CSS syntax highlighting to VSCode.",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "publisher": "andrewleedham",
     "scripts": {
         "push": "vsce publish"
