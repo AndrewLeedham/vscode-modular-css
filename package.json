@@ -15,14 +15,19 @@
         "vscode": "^1.20.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "grammars": [
             {
-                "scopeName": "source.modular.css",
+                "scopeName": "modular-css.injection",
                 "path": "./syntaxes/modular-css.json",
                 "injectTo": ["source.css"]
+            },
+            {
+                "scopeName": "modular-css.sass.injection",
+                "path": "./syntaxes/modular-css.sass.json",
+                "injectTo": ["source.sass"]
             }
         ]
     },
@@ -35,7 +40,9 @@
         "vscode",
         "extension",
         "css",
-        "modular-css"
+        "modular-css",
+        "scss",
+        "sass"
     ],
     "icon": "icon.png",
     "galleryBanner": {
