@@ -50,7 +50,7 @@
   ],
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#580065"
+    "color": "#DFDFDF"
   },
   "commitlint": {
     "extends": [
