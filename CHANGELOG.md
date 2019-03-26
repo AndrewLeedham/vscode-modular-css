@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/AndrewLeedham/vscode-modular-css/compare/v1.3.0...v1.3.1) (2019-03-26)
+
+
+### Bug Fixes
+
+* **package:** retain package.json formatting ([8597b1e](https://github.com/AndrewLeedham/vscode-modular-css/commit/8597b1e))
+
 # [1.3.0](https://github.com/AndrewLeedham/vscode-modular-css/compare/v1.2.2...v1.3.0) (2019-03-17)
 
 
