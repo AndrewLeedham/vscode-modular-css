@@ -1,5 +1,12 @@
 # vscode-modular-css
-[![Visual Studio Marketplace](https://flat.badgen.net/vs-marketplace/v/andrewleedham.vscode-modular-css?color=cyan)](https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css) [![Installs](https://flat.badgen.net/vs-marketplace/i/andrewleedham.vscode-modular-css?color=blue)](https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css) [![Downloads](https://flat.badgen.net/vs-marketplace/d/andrewleedham.vscode-modular-css?color=purple)](https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release) [![commit style angular](https://flat.badgen.net/badge/commit%20style/angular/red)](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines) [![license MIT](https://flat.badgen.net/badge/license/MIT/orange)](./LICENSE) ![Languages CSS, SCSS, SASS](https://flat.badgen.net/badge/languages/css,scss,sass/yellow?list=1) [![Greenkeeper badge](https://badges.greenkeeper.io/AndrewLeedham/vscode-modular-css.svg?style=flat-square)](https://greenkeeper.io/)
+[![Visual Studio Marketplace][vscode-badge]][vscode-link]
+[![Installs][installs-badge]][installs-link]
+[![Downloads][downloads-badge]][downloads-link]
+[![semantic-release][semantic-release-badge]][semantic-release-link]
+[![commit style angular][commit-style-badge]][commit-style-link]
+[![license MIT][license-badge]][license-link]
+![Languages CSS, SCSS, SASS][languages-badge]
+[![Greenkeeper badge][greenkeeper-badge]][greenkeeper-link]
 
 An extension to add [Modular CSS](https://github.com/tivac/modular-css) syntax highlighting to VSCode.
 
@@ -17,3 +24,19 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 
 ---
 [CHANGELOG](/CHANGELOG.md) | [LICENSE](/LICENSE)
+
+[vscode-badge]: https://flat.badgen.net/vs-marketplace/v/andrewleedham.vscode-modular-css?color=cyan
+[vscode-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css
+[installs-badge]: https://flat.badgen.net/vs-marketplace/i/andrewleedham.vscode-modular-css?color=blue
+[installs-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css
+[downloads-badge]: https://flat.badgen.net/vs-marketplace/d/andrewleedham.vscode-modular-css?color=purple
+[downloads-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css
+[semantic-release-badge]: https://flat.badgen.net/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80/semantic%20release/e10079
+[semantic-release-link]: https://github.com/semantic-release/semantic-release
+[commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/red
+[commit-style-link]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
+[license-badge]: https://flat.badgen.net/badge/license/MIT/orange
+[license-link]: ./LICENSE
+[languages-badge]: https://flat.badgen.net/badge/languages/css,scss,sass/yellow?list=1
+[greenkeeper-badge]: https://badges.greenkeeper.io/AndrewLeedham/vscode-modular-css.svg?style=flat-square
+[greenkeeper-link]: https://greenkeeper.io/
