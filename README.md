@@ -1,4 +1,7 @@
 # vscode-modular-css
+
+> An extension to add [Modular CSS](https://github.com/tivac/modular-css) syntax highlighting to VSCode.
+
 [![Visual Studio Marketplace][vscode-badge]][vscode-link]
 [![Installs][installs-badge]][installs-link]
 [![Downloads][downloads-badge]][downloads-link]
@@ -8,7 +11,6 @@
 ![Languages CSS, SCSS, SASS][languages-badge]
 [![Greenkeeper badge][greenkeeper-badge]][greenkeeper-link]
 
-An extension to add [Modular CSS](https://github.com/tivac/modular-css) syntax highlighting to VSCode.
 
 ![VSCode Window showing the plugin in action](/highlighting.png)
 
