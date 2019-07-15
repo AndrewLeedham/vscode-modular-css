@@ -2,6 +2,7 @@
 
 > An extension to add [Modular CSS](https://github.com/tivac/modular-css) syntax highlighting to VSCode.
 
+[![Travis CI Status][actions-badge]][actions-link]
 [![Visual Studio Marketplace][vscode-badge]][vscode-link]
 [![Installs][installs-badge]][installs-link]
 [![Downloads][downloads-badge]][downloads-link]
@@ -27,6 +28,8 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 ---
 [CHANGELOG](/CHANGELOG.md) | [LICENSE](/LICENSE)
 
+[actions-badge]: https://flat.badgen.net/github/status/AndrewLeedham/vscode-modular-css/master/Github%20Actions
+[actions-link]: https://github.com/AndrewLeedham/vscode-modular-css/actions
 [vscode-badge]: https://flat.badgen.net/vs-marketplace/v/andrewleedham.vscode-modular-css?color=cyan
 [vscode-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css
 [installs-badge]: https://flat.badgen.net/vs-marketplace/i/andrewleedham.vscode-modular-css?color=blue
@@ -40,5 +43,5 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 [license-badge]: https://flat.badgen.net/badge/license/MIT/orange
 [license-link]: ./LICENSE
 [languages-badge]: https://flat.badgen.net/badge/languages/css,scss,sass/yellow?list=1
-[dependabot-badge]: https://api.dependabot.com/badges/status?host=github&repo=AndrewLeedham/vscode-modular-css
+[dependabot-badge]: https://flat.badgen.net/dependabot/AndrewLeedham/vscode-modular-css?icon=dependabot
 [dependabot-link]: https://dependabot.com
