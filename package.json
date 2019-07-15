@@ -75,6 +75,10 @@
               "subject": "/\\[security\\].*/",
               "release": "patch"
             }
+          ],
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "[security]"
           ]
         }
       ],
