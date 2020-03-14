@@ -1,4 +1,6 @@
-# vscode-modular-css
+# Moved to monorepo: [AndrewLeedham/vscode-extensions](https://github.com/AndrewLeedham/extensions)
+
+# ~~vscode-modular-css~~
 
 > An extension to add [Modular CSS](https://github.com/tivac/modular-css) syntax highlighting to VSCode.
 
